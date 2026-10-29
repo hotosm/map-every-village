@@ -1,0 +1,28 @@
+pcode,name,level,p1,p2,p3,p4,missing,in_osm_unnamed,in_osm_named
+SC1109BA,Bel Air,3,0,0,0,4,0,0,4
+SC1116ER,English River,3,0,0,0,0,0,0,0
+SC1117MB,Mont Buxton,3,0,0,0,1,0,0,1
+SC1122SL,Saint Louis,3,0,0,0,1,0,0,1
+SC1127PI,Perseverance Island,3,0,0,0,3,0,0,3
+SC1218MF,Mont Fleuri,3,2,0,4,1,6,0,1
+SC1219PA,Plaisance,3,0,0,0,2,0,0,2
+SC1224LM,Les Mamelles,3,0,0,1,0,1,0,0
+SC1225RC,Roche Caiman,3,1,0,0,2,1,0,2
+SC1301AA,Anse Aux Pins,3,0,0,1,0,1,0,0
+SC1304AC,Au Cap,3,0,0,5,2,5,0,2
+SC1305AR,Anse Royale,3,0,0,4,0,4,0,0
+SC1311CA,Cascade,3,1,0,0,1,1,0,1
+SC1320PL,Pointe Larue,3,0,0,1,0,1,0,0
+SC1323TA,Takamaka,3,2,0,22,2,24,0,2
+SC1402AB,Anse Boileau,3,0,0,3,3,3,0,3
+SC1406BL,Baie Lazare,3,2,1,10,0,12,1,0
+SC1413GM,Grand Anse Mahe,3,2,0,14,5,16,0,5
+SC1421PG,Port Glaud,3,1,1,6,4,7,1,4
+SC1503AE,Anse Etoile,3,0,0,0,2,0,0,2
+SC1508BV,Beau Vallon,3,0,0,1,2,1,0,2
+SC1510BO,Belombre,3,0,0,3,1,2,1,1
+SC1512GL,Glacis,3,0,1,4,1,3,2,1
+SC2607BS,Baie Sainte Anne,3,7,1,20,4,27,1,4
+SC2614GP,Grand Anse Praslin,3,5,1,11,3,16,1,3
+SC3615LD,La Digue,3,0,1,10,1,7,4,1
+SC4726OI,Other Islands,3,11,0,28,5,39,0,5

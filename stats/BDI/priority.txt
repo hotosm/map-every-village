@@ -1,0 +1,27 @@
+BDI: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              53         6       296
+  village         6909       121      2318
+  hamlet         49782       298      5181
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              70         6       335
+  village         8059       124      2163
+  hamlet         13008       211      1534
+Priority
+  1 village-size, not in OSM          6962
+  2 village-size, OSM unnamed          127
+  3 hamlet                           50080
+  4 named in OSM (check)              7795
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          3525 of      6962
+  2 village-size, OSM unnamed           63 of       127
+  3 hamlet                           15154 of     50080
+  4 named in OSM (check)              4084 of      7795
+  Hint vs OSM name, 4084 named candidates: same 39%, close (Jaro-Winkler >= 0.9) 40%
+Matched OSM places, building count p20/p50, share >= 50
+  village     1353  103/291  92%
+  hamlet       212  22/49  50%
+Village-size candidates (incl. towns): 9703
+Official: 2639 colline (territory, 2008, medium confidence); village-size / official = 3.68
+  Wikipedia: Collines of Burundi: https://en.wikipedia.org/wiki/Collines_of_Burundi

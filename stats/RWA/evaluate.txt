@@ -1,0 +1,7 @@
+RWA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      1300/1300    100%
+  village     1551/1551    100%
+Candidates, building count p10/p50/p90
+  in_osm_named        1409  6/26/2549
+  in_osm_unnamed      1521  6/31/589
+  missing            24861  5/12/163

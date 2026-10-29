@@ -1,0 +1,7 @@
+MOZ: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       795/887     90%
+  village     1302/1327    98%
+Candidates, building count p10/p50/p90
+  in_osm_named        6543  6/16/808
+  in_osm_unnamed      1045  5/14/249
+  missing           389873  5/9/33

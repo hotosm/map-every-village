@@ -1,0 +1,27 @@
+CMR: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             123        18       802
+  village        25658       661     11354
+  hamlet         59763       572      8246
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             145        18       860
+  village        23113       637     10017
+  hamlet         32537       383      3734
+Priority
+  1 village-size, not in OSM         25781
+  2 village-size, OSM unnamed          679
+  3 hamlet                           60335
+  4 named in OSM (check)             20402
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          4835 of     25781
+  2 village-size, OSM unnamed          198 of       679
+  3 hamlet                            5156 of     60335
+  4 named in OSM (check)              6541 of     20402
+  Hint vs OSM name, 6541 named candidates: same 44%, close (Jaro-Winkler >= 0.9) 58%
+Matched OSM places, building count p20/p50, share >= 20
+  village     8776  24/90  84%
+  hamlet      1153  15/52  74%
+Village-size candidates (incl. towns): 38616
+Official: 12582 chefferie de 3e degré (traditional, 2015, medium confidence); village-size / official = 3.07
+  MINAT chiefdom lists via Osidimbea: https://osidimbea-villages.jimdofree.com/chefferies/

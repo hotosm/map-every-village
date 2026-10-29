@@ -1,0 +1,27 @@
+BEN: classes (village >= 30 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              40        21       469
+  village         5252      1083      6087
+  hamlet         44661      2043      8747
+Groups (biggest neighbour within 100 m), by total buildings
+  class        missing   unnamed     named
+  town              45        22       476
+  village         6008      1130      6284
+  hamlet         34312      1337      5317
+Priority
+  1 village-size, not in OSM          5292
+  2 village-size, OSM unnamed         1104
+  3 hamlet                           46704
+  4 named in OSM (check)             15303
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           503 of      5292
+  2 village-size, OSM unnamed          169 of      1104
+  3 hamlet                            2124 of     46704
+  4 named in OSM (check)              2176 of     15303
+  Hint vs OSM name, 2176 named candidates: same 23%, close (Jaro-Winkler >= 0.9) 36%
+Matched OSM places, building count p20/p50, share >= 30
+  village     3263  31/166  80%
+  hamlet      6708  14/37  58%
+Village-size candidates (incl. towns): 12952
+Official: 5290 village / quartier de ville (admin_village, 2013, high confidence); village-size / official = 2.45
+  Loi n° 2013-05 (liste des unités administratives locales): https://assemblee-nationale.bj/wp-content/uploads/2017/10/L.2013-05.pdf

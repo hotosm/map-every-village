@@ -1,0 +1,261 @@
+pcode,name,level,p1,p2,p3,p4,missing,in_osm_unnamed,in_osm_named
+GH0101,Asunafo North Municipal,2,16,7,808,196,807,24,196
+GH0106,Tano South Municipal,2,3,1,109,57,112,1,57
+GH0102,Asunafo South,2,9,9,598,186,592,24,186
+GH0103,Asutifi North,2,20,3,412,91,432,3,91
+GH0104,Asutifi South,2,21,4,391,50,410,6,50
+GH0105,Tano North Municipal,2,20,1,489,89,509,1,89
+GH0201,Adansi Akrofuom,2,41,1,270,12,310,2,12
+GH0202,Adansi Asokwa,2,28,8,399,27,423,12,27
+GH0203,Adansi North,2,6,5,52,31,58,5,31
+GH0204,Adansi South,2,38,6,711,127,745,10,127
+GH0205,Afigya Kwabre North,2,2,1,180,10,182,1,10
+GH0206,Afigya Kwabre South,2,2,0,188,15,190,0,15
+GH0207,Ahafo Ano North,2,23,22,674,42,687,32,42
+GH0208,Ahafo Ano South East,2,22,19,359,70,374,26,70
+GH0213,Asante Akim Central Municipal,2,7,3,160,22,164,6,22
+GH0209,Ahafo Ano South West,2,5,6,211,37,215,7,37
+GH0210,Amansie Central,2,75,18,183,41,256,20,41
+GH0211,Amansie South,2,8,26,122,29,124,32,29
+GH0212,Amansie West,2,8,14,150,80,155,17,80
+GH0713,Ga Central Municipal,2,0,0,3,0,3,0,0
+GH0214,Asante Akim North,2,7,7,209,26,214,9,26
+GH0218,Atwima Kwanwoma,2,3,0,88,37,91,0,37
+GH0215,Asante Akim South,2,18,23,460,81,465,36,81
+GH0216,Asokore Mampong Municipal,2,1,0,2,0,3,0,0
+GH0217,Asokwa Municipal,2,0,0,0,0,0,0,0
+GH0227,Juaben Municipal,2,1,0,57,30,58,0,30
+GH0219,Atwima Mponua,2,8,2,828,259,830,8,259
+GH0220,Atwima Nwabiagya North,2,17,0,213,9,230,0,9
+GH0221,Atwima Nwabiagya South,2,18,5,190,19,203,10,19
+GH0222,Bekwai Municipal,2,15,23,174,44,178,34,44
+GH0228,Kumasi Metropolitan,2,0,0,0,3,0,0,3
+GH0229,Kwabre East,2,3,0,22,9,25,0,9
+GH0223,Bosome Freho,2,17,20,140,47,150,27,47
+GH0224,Bosomtwe,2,2,0,213,67,215,0,67
+GH0230,Kwadaso Municipal,2,0,0,3,0,3,0,0
+GH0225,Ejisu Municipal,2,12,0,199,38,211,0,38
+GH0226,Ejura-Sekyedumase,2,31,5,220,34,248,8,34
+GH0237,Old Tafo Municipal,2,0,0,0,0,0,0,0
+GH0238,Sekyere Afram Plains North,2,15,21,231,33,234,33,33
+GH0231,Mampong Municipal,2,9,2,162,43,171,2,43
+GH0232,Obuasi East,2,0,0,17,13,17,0,13
+GH0233,Obuasi Municipal,2,8,0,35,22,43,0,22
+GH0714,Ga East,2,1,0,5,2,6,0,2
+GH0234,Offinso Municipal,2,14,2,280,20,294,2,20
+GH0235,Offinso North,2,14,1,263,47,274,4,47
+GH0236,Oforikrom Municipal,2,0,0,7,0,7,0,0
+GH0239,Sekyere Central,2,6,5,143,117,143,11,117
+GH0240,Sekyere East,2,3,1,81,34,77,8,34
+GH0241,Sekyere Kumawu,2,7,1,109,23,116,1,23
+GH0242,Sekyere South,2,8,4,335,29,343,4,29
+GH0243,Suame Municipal,2,0,0,0,1,0,0,1
+GH0301,Banda,2,5,2,36,23,41,2,23
+GH0715,Ga North Municipal,2,2,0,32,9,33,1,9
+GH0302,Berekum East Municipal,2,2,2,59,20,60,3,20
+GH0303,Berekum West,2,3,0,73,27,76,0,27
+GH0304,Dormaa East,2,4,5,254,51,255,8,51
+GH0305,Dormaa Municipal,2,13,18,235,36,236,30,36
+GH0306,Dormaa West,2,8,2,193,57,196,7,57
+GH0716,Ga South Municipal,2,44,4,186,3,224,10,3
+GH0307,Jaman North,2,0,2,38,51,38,2,51
+GH0503,Agona West Municipal,2,8,7,203,67,166,52,67
+GH0308,Jaman South Municipal,2,10,10,145,40,154,11,40
+GH0309,Sunyani Municipal,2,19,1,469,39,485,4,39
+GH0512,Effutu Municipal,2,6,0,51,15,57,0,15
+GH0310,Sunyani West,2,10,0,408,66,415,3,66
+GH0404,Nkoranza North,2,4,0,189,58,193,0,58
+GH0311,Tain,2,14,7,172,72,180,13,72
+GH0405,Nkoranza South,2,11,0,187,90,198,0,90
+GH0312,Wenchi Municipal,2,16,0,324,50,340,0,50
+GH0406,Pru East,2,17,5,186,32,197,11,32
+GH0401,Atebubu Amantin,2,22,9,211,51,223,19,51
+GH0513,Ekumfi,2,14,8,53,39,67,8,39
+GH0402,Kintampo North Municipal,2,16,14,300,50,301,29,50
+GH0514,Gomoa Central,2,8,0,46,21,54,0,21
+GH0403,Kintampo South,2,16,11,332,56,343,16,56
+GH0410,Techiman Municipal,2,27,5,321,48,343,10,48
+GH0407,Pru West,2,4,1,95,23,99,1,23
+GH0411,Techiman North,2,9,0,154,42,163,0,42
+GH0722,La-Nkwantanang-Madina,2,1,0,11,0,12,0,0
+GH0408,Sene East,2,66,10,405,35,462,19,35
+GH0501,Abura-Asebu-Kwamankese,2,23,0,52,95,75,0,95
+GH0409,Sene West,2,17,13,250,25,250,30,25
+GH0502,Agona East,2,11,0,137,147,138,10,147
+GH0504,Ajumako-Enyan-Essiam,2,20,9,84,84,102,11,84
+GH0505,Asikuma-Odoben-Brakwa,2,51,9,401,51,379,82,51
+GH0506,Assin Fosu,2,19,0,156,12,175,0,12
+GH0507,Assin North,2,77,15,698,24,767,23,24
+GH0508,Assin South,2,43,3,425,108,467,4,108
+GH0723,Ledzokuku Municipal,2,1,0,1,0,2,0,0
+GH0509,Awutu Senya,2,14,6,161,53,169,12,53
+GH0510,Awutu Senya East,2,2,0,39,2,41,0,2
+GH0511,Cape Coast Metropolitan,2,1,1,13,33,14,1,33
+GH0728,Tema West Municipal,2,0,0,3,1,3,0,1
+GH0515,Gomoa East,2,23,4,310,36,322,15,36
+GH0516,Gomoa West,2,1,13,36,30,33,17,30
+GH0810,Sagnerigu,2,8,0,94,20,102,0,20
+GH0517,Komenda-Edina-Eguafo-Abirem Municipal,2,19,11,153,42,169,14,42
+GH0518,Mfantseman Municipal,2,41,4,69,25,108,6,25
+GH0521,Upper Denkyira East Municipal,2,22,7,310,43,328,11,43
+GH0519,Twifo Atti-Morkwa,2,40,0,677,121,716,1,121
+GH0520,Twifo Hemang Lower Denkyira,2,12,0,218,122,230,0,122
+GH0626,New Juaben South Municipal,2,0,0,5,7,5,0,7
+GH0522,Upper Denkyira West,2,23,2,214,58,237,2,58
+GH0601,Abuakwa North,2,10,0,104,24,114,0,24
+GH0602,Abuakwa South,2,9,5,140,38,148,6,38
+GH0603,Achiase,2,11,5,115,40,118,13,40
+GH0604,Akwapem North,2,16,3,213,55,226,6,55
+GH0605,Akwapem South,2,6,0,215,96,221,0,96
+GH0606,Akyem Mansa,2,25,2,248,62,269,6,62
+GH0607,Asene Akroso Manso,2,8,8,94,80,93,17,80
+GH0627,Nsawam Adoagyiri,2,10,1,88,55,95,4,55
+GH0608,Asuogyaman,2,16,0,171,75,187,0,75
+GH0609,Atiwa East,2,7,1,184,50,191,1,50
+GH0628,Okere,2,24,6,132,81,154,8,81
+GH0610,Atiwa West,2,7,0,125,30,132,0,30
+GH0611,Ayensuano,2,20,2,440,193,456,6,193
+GH0612,Birim Central Municipal,2,3,0,34,6,37,0,6
+GH0613,Birim North,2,12,2,199,76,209,4,76
+GH0614,Birim South,2,5,4,89,29,91,7,29
+GH0615,Denkyembour,2,14,1,158,30,172,1,30
+GH0616,Fanteakwa North,2,17,0,319,89,336,0,89
+GH0617,Fanteakwa South,2,15,1,124,37,139,1,37
+GH0618,Kwaebibirem,2,17,9,220,71,232,14,71
+GH0619,Kwahu Afram Plains North,2,98,2,334,58,431,3,58
+GH0620,Kwahu Afram Plains South,2,55,4,304,112,359,4,112
+GH0629,Suhum Municipal,2,31,2,377,103,406,4,103
+GH0621,Kwahu East,2,12,5,54,111,64,7,111
+GH0622,Kwahu South,2,9,0,162,86,171,0,86
+GH0702,Ablekuma North Municipal,2,0,0,0,0,0,0,0
+GH0703,Ablekuma West Municipal,2,0,0,0,0,0,0,0
+GH0704,Accra Metropolis,2,0,0,0,0,0,0,0
+GH0623,Kwahu West,2,5,2,133,105,138,2,105
+GH0624,Lower Manya,2,30,0,202,45,232,0,45
+GH0625,New Juaben North Municipal,2,6,0,101,9,107,0,9
+GH0630,Upper Manya,2,53,0,454,182,507,0,182
+GH0631,Upper West Akim,2,21,4,278,122,292,11,122
+GH0710,Ayawaso East Municipal,2,0,0,0,0,0,0,0
+GH0711,Ayawaso North Municipal,2,0,0,0,0,0,0,0
+GH0712,Ayawaso West,2,0,0,1,2,1,0,2
+GH0632,West Akim,2,17,1,338,78,354,2,78
+GH0633,Yilo Krobo,2,75,4,295,142,370,4,142
+GH0701,Ablekuma Central Municipal,2,0,0,1,0,1,0,0
+GH0705,Ada East,2,24,8,105,43,118,19,43
+GH0706,Ada West,2,6,1,48,74,54,1,74
+GH0707,Adenta Municipal,2,2,0,17,4,19,0,4
+GH0708,Ashaiman Municipal,2,0,0,4,0,4,0,0
+GH0709,Ayawaso Central Municipal,2,0,0,0,0,0,0,0
+GH0717,Ga West Municipal,2,15,0,52,3,65,2,3
+GH0718,Korle Klottey Municipal,2,0,0,0,0,0,0,0
+GH0719,Kpone Katamanso,2,7,0,55,7,62,0,7
+GH0720,Krowor Municipal,2,0,0,0,0,0,0,0
+GH0721,La Dade-Kotopon,2,0,0,8,0,8,0,0
+GH0724,Ningo/Prampram,2,44,0,319,27,363,0,27
+GH0725,Okaikwei North Municipal,2,1,0,3,3,4,0,3
+GH0726,Shai Osudoku,2,73,5,568,43,636,10,43
+GH0727,Tema Metropolitan,2,0,0,4,0,4,0,0
+GH0729,Weija Gbawe Municipal,2,0,0,6,4,6,0,4
+GH0803,Kpandai,2,38,8,98,38,135,9,38
+GH0801,Gushegu,2,59,39,978,63,982,94,63
+GH0802,Karaga,2,54,19,687,98,699,61,98
+GH0804,Kumbungu,2,12,7,44,91,55,8,91
+GH0806,Nanton,2,7,3,46,81,52,4,81
+GH0807,Nanumba North,2,37,35,146,74,164,54,74
+GH0808,Nanumba South,2,56,11,111,112,159,19,112
+GH0809,Saboba,2,74,31,422,69,466,61,69
+GH0805,Mion,2,20,91,192,66,173,130,66
+GH0811,Savelugu,2,4,2,149,111,149,6,111
+GH0812,Tamale Metropolitan,2,8,4,187,85,187,12,85
+GH0813,Tatale Sanguli,2,43,24,148,23,169,46,23
+GH0814,Tolon,2,19,28,140,85,148,39,85
+GH0906,Yunyoo-Nasuan,2,42,18,242,24,270,32,24
+GH0815,Yendi Municipal,2,46,43,266,33,279,76,33
+GH1414,Kpando Municipal,2,6,2,69,24,75,2,24
+GH0816,Zabzugu,2,19,18,84,30,88,33,30
+GH1001,Biakoye,2,16,11,144,47,156,15,47
+GH0901,Bunkpurugu Nakpanduri,2,64,6,276,93,335,11,93
+GH0902,Chereponi,2,23,6,222,170,229,22,170
+GH0903,East Mamprusi,2,32,7,488,160,517,10,160
+GH1415,North Dayi,2,13,0,71,25,84,0,25
+GH0904,Mamprugu Moagduri,2,8,2,122,66,129,3,66
+GH1203,Binduri,2,173,6,885,23,1055,9,23
+GH0905,West Mamprusi Municipal,2,9,1,149,123,158,1,123
+GH1002,Jasikan,2,7,6,355,37,353,15,37
+GH1204,Bolga East,2,28,0,83,45,111,0,45
+GH1003,Kadjebi,2,8,4,247,49,246,13,49
+GH1205,Bolgatanga Municipal,2,96,0,299,17,395,0,17
+GH1004,Krachi East Municipal,2,50,32,424,53,413,93,53
+GH1212,Nabdam,2,70,1,436,33,503,4,33
+GH1005,Krachi Nchumuru,2,15,16,147,86,119,59,86
+GH1006,Krachi West,2,20,7,149,33,159,17,33
+GH1502,Effia Kwesimintsim Municipal,2,2,0,35,1,37,0,1
+GH1007,Nkwanta North,2,25,15,99,27,117,22,27
+GH1008,Nkwanta South Municipal,2,16,4,225,103,233,12,103
+GH1101,Bole,2,23,18,334,66,327,48,66
+GH1102,Central Gonja,2,50,24,446,97,466,54,97
+GH1103,East Gonja Municipal,2,18,12,244,5,256,18,5
+GH1104,North East Gonja,2,69,34,296,91,348,51,91
+GH1105,North Gonja,2,8,21,119,20,103,45,20
+GH1106,Sawla-Tuna-Kalba,2,69,54,666,51,618,171,51
+GH1107,West Gonja,2,27,10,269,57,271,35,57
+GH1201,Bawku Municipal,2,154,3,496,7,641,12,7
+GH1202,Bawku West,2,115,18,1440,17,1521,52,17
+GH1503,Ellembelle,2,8,1,266,129,269,6,129
+GH1206,Bongo,2,214,1,832,140,1046,1,140
+GH1207,Builsa North,2,64,0,1263,49,1327,0,49
+GH1504,Jomoro,2,12,0,163,111,162,13,111
+GH1208,Builsa South,2,28,3,670,57,691,10,57
+GH1303,Lambussie-Karni,2,66,0,673,19,739,0,19
+GH1209,Garu,2,127,0,947,31,1074,0,31
+GH1310,Wa Municipal,2,26,8,189,56,206,17,56
+GH1311,Wa West,2,93,27,482,124,556,46,124
+GH1210,Kasena Nankana East,2,143,7,938,32,1076,12,32
+GH1401,Adaklu,2,23,5,152,28,173,7,28
+GH1211,Kasena Nankana West,2,147,5,799,55,943,8,55
+GH1505,Mpohor,2,12,8,108,16,104,24,16
+GH1213,Pusiga,2,165,1,739,20,890,15,20
+GH1214,Talensi,2,147,6,874,88,1017,10,88
+GH1215,Tempane,2,148,13,997,27,1113,45,27
+GH1405,Akatsi South,2,122,0,293,23,414,1,23
+GH1301,Daffiama Bussie Issa,2,26,10,254,16,269,21,16
+GH1302,Jirapa,2,110,3,1043,111,1149,7,111
+GH1304,Lawra,2,109,1,742,62,850,2,62
+GH1406,Anloga,2,12,0,21,18,33,0,18
+GH1305,Nadowli-Kaleo,2,96,3,298,48,388,9,48
+GH1306,Nandom,2,105,0,664,31,769,0,31
+GH1407,Central Tongu,2,67,5,149,46,213,8,46
+GH1307,Sissala East,2,31,23,170,46,188,36,46
+GH1308,Sissala West,2,45,5,245,59,284,11,59
+GH1509,Shama,2,13,5,83,25,86,15,25
+GH1309,Wa East,2,26,29,328,70,311,72,70
+GH1402,Afadzato South,2,31,0,222,52,244,9,52
+GH1412,Ketu North,2,102,5,288,9,386,9,9
+GH1403,Agotime Ziope,2,47,8,108,17,153,10,17
+GH1404,Akatsi North,2,38,0,102,5,140,0,5
+GH1408,Ho Municipal,2,17,14,163,36,163,31,36
+GH1409,Ho West,2,39,8,172,45,201,18,45
+GH1413,Ketu South,2,47,0,137,21,184,0,21
+GH1410,Hohoe Municipal,2,8,8,235,50,238,13,50
+GH1411,Keta Municipal,2,28,2,89,26,115,4,26
+GH1416,North Tongu,2,77,5,370,39,444,8,39
+GH1417,South Dayi,2,17,0,82,23,99,0,23
+GH1418,South Tongu,2,111,5,266,37,374,8,37
+GH1501,Ahanta West Municipal,2,19,29,98,44,103,43,44
+GH1506,Nzema East,2,7,2,146,84,153,2,84
+GH1510,Tarkwa Nsuaem,2,18,5,176,38,186,13,38
+GH1507,Prestea/Huni Valley,2,52,21,374,63,412,35,63
+GH1508,Sekondi Takoradi Metropolis,2,2,0,13,14,15,0,14
+GH1511,Wassa Amenfi Central,2,38,28,485,30,508,43,30
+GH1602,Bia East,2,13,16,788,25,788,29,25
+GH1512,Wassa Amenfi East,2,60,14,550,56,604,20,56
+GH1604,Bibiani-Anhwiaso-Bekwai Municipal,2,12,42,150,36,159,45,36
+GH1513,Wassa Amenfi West,2,55,6,739,67,793,7,67
+GH1514,Wassa East,2,102,1,749,61,850,2,61
+GH1601,Aowin,2,26,3,969,125,988,10,125
+GH1603,Bia West,2,13,13,802,36,778,50,36
+GH1605,Bodi,2,11,29,637,15,627,50,15
+GH1606,Juaboso,2,18,30,668,27,663,53,27
+GH1607,Sefwi Akontombra,2,6,40,700,25,664,82,25
+GH1608,Sefwi-Wiawso,2,11,30,497,85,494,44,85
+GH1609,Suaman,2,3,4,280,12,271,16,12

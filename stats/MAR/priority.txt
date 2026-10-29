@@ -1,0 +1,27 @@
+MAR: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              44         5       302
+  village        15329       955      7647
+  hamlet         51636       765      9613
+Groups (biggest neighbour within 150 m), by total buildings
+  class        missing   unnamed     named
+  town              55         7       317
+  village        15702       926      7123
+  hamlet         27638       460      4810
+Priority
+  1 village-size, not in OSM         15373
+  2 village-size, OSM unnamed          960
+  3 hamlet                           52401
+  4 named in OSM (check)             17562
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          7972 of     15373
+  2 village-size, OSM unnamed          796 of       960
+  3 hamlet                           15511 of     52401
+  4 named in OSM (check)             10262 of     17562
+  Hint vs OSM name, 10262 named candidates: same 21%, close (Jaro-Winkler >= 0.9) 30%
+Matched OSM places, building count p20/p50, share >= 20
+  village     2537  20/79  81%
+  hamlet      4442  14/43  72%
+Village-size candidates (incl. towns): 24282
+Official: 33189 douar (settlement, 2024, high confidence); village-size / official = 0.73
+  HCP: Population et ménages par douars (RGPH 2024): https://www.hcp.ma/Population-et-menages-par-douars-selon-les-resultats-du-recensement-general-de-la-population-et-de-l-habitat-de-2024_a4208.html

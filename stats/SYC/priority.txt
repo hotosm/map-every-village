@@ -1,0 +1,25 @@
+SYC: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               1         3         5
+  village           33         3        21
+  hamlet           152         5        28
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town               1         3         5
+  village           35         3        20
+  hamlet            95         4        17
+Priority
+  1 village-size, not in OSM            34
+  2 village-size, OSM unnamed            6
+  3 hamlet                             157
+  4 named in OSM (check)                54
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM             6 of        34
+  2 village-size, OSM unnamed            4 of         6
+  3 hamlet                              15 of       157
+  4 named in OSM (check)                13 of        54
+  Hint vs OSM name, 13 named candidates: same 15%, close (Jaro-Winkler >= 0.9) 23%
+Matched OSM places, building count p20/p50, share >= 50
+  village       22  27/239  73%  (small sample)
+  hamlet         2  88/88  100%  (small sample)
+Village-size candidates (incl. towns): 66

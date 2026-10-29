@@ -1,0 +1,7 @@
+SEN: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      6645/6823    97%
+  village     6538/6587    99%
+Candidates, building count p10/p50/p90
+  in_osm_named       12836  7/84/505
+  in_osm_unnamed      6909  8/38/169
+  missing            33969  5/12/52

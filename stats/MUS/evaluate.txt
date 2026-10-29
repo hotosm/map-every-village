@@ -1,0 +1,7 @@
+MUS: OSM hamlets/villages matched by a candidate (recall)
+  hamlet        90/91      99%
+  village      167/167     100%
+Candidates, building count p10/p50/p90
+  in_osm_named         478  6/50/2237
+  in_osm_unnamed         7  5/10/447
+  missing             1157  5/10/59

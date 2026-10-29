@@ -1,0 +1,27 @@
+BFA: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             168       107      1199
+  village        21332      2728      8023
+  hamlet        185719      9429     15434
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             245       132      1359
+  village        23476      2830      6966
+  hamlet         86870      5006      4086
+Priority
+  1 village-size, not in OSM         21500
+  2 village-size, OSM unnamed         2835
+  3 hamlet                          195148
+  4 named in OSM (check)             24656
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          4031 of     21500
+  2 village-size, OSM unnamed          615 of      2835
+  3 hamlet                           13129 of    195148
+  4 named in OSM (check)              9214 of     24656
+  Hint vs OSM name, 9214 named candidates: same 61%, close (Jaro-Winkler >= 0.9) 73%
+Matched OSM places, building count p20/p50, share >= 50
+  village     8038  61/200  84%
+  hamlet      5966  10/23  24%
+Village-size candidates (incl. towns): 33557
+Official: 9288 village administratif / secteur (admin_village, 2015, high confidence); village-size / official = 3.61
+  MATD Annuaire statistique 2019 (DGAT répertoire July 2015): https://www.matd.gov.bf/fileadmin/user_upload/storage/fichiers/MATD_AS-2019_Administration_territoire_VF.pdf

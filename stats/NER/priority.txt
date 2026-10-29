@@ -1,0 +1,27 @@
+NER: classes (village >= 45 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              83         8      1099
+  village        10465       831     11702
+  hamlet         83802      3996     14355
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              91         8      1149
+  village        12372       968     11338
+  hamlet         46024      2771      6558
+Priority
+  1 village-size, not in OSM         10548
+  2 village-size, OSM unnamed          839
+  3 hamlet                           87798
+  4 named in OSM (check)             27156
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          1048 of     10548
+  2 village-size, OSM unnamed          112 of       839
+  3 hamlet                            2356 of     87798
+  4 named in OSM (check)             16107 of     27156
+  Hint vs OSM name, 16107 named candidates: same 81%, close (Jaro-Winkler >= 0.9) 86%
+Matched OSM places, building count p20/p50, share >= 45
+  village    11842  49/181  82%
+  hamlet      6811  10/25  29%
+Village-size candidates (incl. towns): 24188
+Official: 15308 village administratif / traditionnel (settlement, 2001, medium confidence); village-size / official = 1.58
+  RENACOM 2001 via Wikipedia (fr): https://fr.wikipedia.org/wiki/Liste_des_villes_du_Niger

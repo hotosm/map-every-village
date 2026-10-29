@@ -1,0 +1,7 @@
+CMR: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      1228/1407    87%
+  village     9494/10542   90%
+Candidates, building count p10/p50/p90
+  in_osm_named       20402  6/30/374
+  in_osm_unnamed      1251  6/23/186
+  missing            85544  5/11/62

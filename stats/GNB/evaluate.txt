@@ -1,0 +1,7 @@
+GNB: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       803/857     94%
+  village      799/812     98%
+Candidates, building count p10/p50/p90
+  in_osm_named        1404  6/24/173
+  in_osm_unnamed      1049  9/39/139
+  missing             6247  5/11/46

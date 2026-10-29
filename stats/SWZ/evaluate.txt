@@ -1,0 +1,7 @@
+SWZ: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       350/350     100%
+  village       67/67      100%
+Candidates, building count p10/p50/p90
+  in_osm_named        1383  7/28/286
+  in_osm_unnamed         1  1352/1352/1352
+  missing            30615  6/13/57

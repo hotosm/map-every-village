@@ -1,0 +1,27 @@
+ZWE: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             218         2       148
+  village        28392        61       797
+  hamlet        457590       223      2098
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             263         2       158
+  village        44649        63       793
+  hamlet        189021       120       682
+Priority
+  1 village-size, not in OSM         28610
+  2 village-size, OSM unnamed           63
+  3 hamlet                          457813
+  4 named in OSM (check)              3043
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           681 of     28610
+  2 village-size, OSM unnamed            1 of        63
+  3 hamlet                            4331 of    457813
+  4 named in OSM (check)               358 of      3043
+  Hint vs OSM name, 358 named candidates: same 72%, close (Jaro-Winkler >= 0.9) 80%
+Matched OSM places, building count p20/p50, share >= 50
+  village      416  72/170  87%
+  hamlet       173  21/48  48%
+Village-size candidates (incl. towns): 29618
+Official: 27000 village head (registered) (traditional, 2020, medium confidence); village-size / official = 1.10
+  CITE quoting the Deputy Minister of Local Government: https://cite.org.zw/?p=20900

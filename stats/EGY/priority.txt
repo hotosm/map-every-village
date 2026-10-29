@@ -1,0 +1,25 @@
+EGY: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town            1559        83      1184
+  village        13567       160      2662
+  hamlet         91135       531     11582
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town            1703        84      1229
+  village        13502       163      2569
+  hamlet         43492       270      5670
+Priority
+  1 village-size, not in OSM         15126
+  2 village-size, OSM unnamed          243
+  3 hamlet                           91666
+  4 named in OSM (check)             15428
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          4820 of     15126
+  2 village-size, OSM unnamed          140 of       243
+  3 hamlet                            6851 of     91666
+  4 named in OSM (check)              3104 of     15428
+  Hint vs OSM name, 3104 named candidates: same 1%, close (Jaro-Winkler >= 0.9) 1%
+Matched OSM places, building count p20/p50, share >= 50
+  village     1108  75/1460  82%
+  hamlet       176  13/42  45%
+Village-size candidates (incl. towns): 19215

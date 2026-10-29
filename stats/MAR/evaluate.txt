@@ -1,0 +1,7 @@
+MAR: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      5317/9475    56%
+  village     2703/7019    39%
+Candidates, building count p10/p50/p90
+  in_osm_named       17562  6/16/163
+  in_osm_unnamed      1725  6/25/142
+  missing            67009  5/9/42

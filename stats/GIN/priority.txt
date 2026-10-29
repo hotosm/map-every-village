@@ -1,0 +1,27 @@
+GIN: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               9         5       401
+  village         6657      2113      6217
+  hamlet         35168      3133      6441
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              10         5       410
+  village         7115      2142      6276
+  hamlet         23191      2391      4062
+Priority
+  1 village-size, not in OSM          6666
+  2 village-size, OSM unnamed         2118
+  3 hamlet                           38301
+  4 named in OSM (check)             13059
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           484 of      6666
+  2 village-size, OSM unnamed          201 of      2118
+  3 hamlet                            1522 of     38301
+  4 named in OSM (check)              2713 of     13059
+  Hint vs OSM name, 2713 named candidates: same 54%, close (Jaro-Winkler >= 0.9) 69%
+Matched OSM places, building count p20/p50, share >= 50
+  village     4550  59/168  83%
+  hamlet      8878  18/46  47%
+Village-size candidates (incl. towns): 15402
+Official: 16935 secteur (admin_village, 2022, high confidence); village-size / official = 0.91
+  INS Annuaire statistique 2022: https://www.stat-guinee.org/images/Documents/Publications/INS/annuelles/annuaire/Annuaire_Statistique_2022_VF_INS.pdf

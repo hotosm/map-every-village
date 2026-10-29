@@ -1,0 +1,7 @@
+MWI: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       217/217     100%
+  village     2489/2500    100%
+Candidates, building count p10/p50/p90
+  in_osm_named        5099  6/36/1032
+  in_osm_unnamed       919  6/26/337
+  missing           143135  5/13/86

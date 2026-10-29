@@ -1,0 +1,26 @@
+[
+  {
+    "name": "VIDA Google-Microsoft-OSM Open Buildings",
+    "licence": "ODbL",
+    "url": "https://source.coop/vida/google-microsoft-osm-open-buildings",
+    "attribution": "VIDA; Google Open Buildings; Microsoft Global ML Building Footprints; \u00a9 OpenStreetMap contributors"
+  },
+  {
+    "name": "OpenStreetMap (oex country exports)",
+    "licence": "ODbL",
+    "url": "https://github.com/osgeonepal/oex",
+    "attribution": "\u00a9 OpenStreetMap contributors"
+  },
+  {
+    "name": "OCHA COD-AB NER",
+    "licence": "CC BY-IGO",
+    "url": "https://data.humdata.org/dataset/cod-ab-ner",
+    "attribution": "OCHA Field Information Services Section (FISS), COD-AB"
+  },
+  {
+    "name": "GeoNames populated places",
+    "licence": "CC BY 4.0",
+    "url": "https://www.geonames.org/",
+    "attribution": "GeoNames (geonames.org), CC BY 4.0"
+  }
+]

@@ -1,0 +1,46 @@
+services:
+  db:
+    # Debian, not Alpine: musl makes clustering ~1.7x slower.
+    image: postgis/postgis:18-3.6
+    environment:
+      POSTGRES_USER: mev
+      POSTGRES_PASSWORD: mev
+      POSTGRES_DB: mev
+    ports:
+      - "127.0.0.1:${MEV_DB_PORT:-5439}:5432"
+    volumes:
+      - db-data:/var/lib/postgresql
+    shm_size: 2g
+    # Scratch database (localhost only): durability off for speed.
+    command: >-
+      postgres
+      -c shared_buffers=2GB
+      -c work_mem=256MB
+      -c maintenance_work_mem=1GB
+      -c max_wal_size=8GB
+      -c synchronous_commit=off
+      -c fsync=off
+      -c full_page_writes=off
+      -c jit=off
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mev"]
+      interval: 5s
+      retries: 20
+
+  # The pipeline: `docker compose run --rm mev mev run SLE`, or use the Justfile.
+  mev:
+    build: .
+    profiles: [cli]
+    user: "${MEV_UID:-1000}:${MEV_GID:-1000}"  # so files in out/ are yours
+    environment:
+      MEV_DB_URL: postgresql://mev:mev@db:5432/mev
+      MEV_DUCKDB_MEMORY: ${MEV_DUCKDB_MEMORY:-4GB}
+      MEV_WORKERS: ${MEV_WORKERS:-4}
+    volumes:
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db-data:

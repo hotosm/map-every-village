@@ -1,0 +1,27 @@
+GHA: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              69        39      1149
+  village         7182      1783      5475
+  hamlet         65578      1795      6021
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              98        46      1176
+  village         7843      1776      5351
+  hamlet         38835       916      2947
+Priority
+  1 village-size, not in OSM          7251
+  2 village-size, OSM unnamed         1822
+  3 hamlet                           67373
+  4 named in OSM (check)             12645
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          2335 of      7251
+  2 village-size, OSM unnamed          806 of      1822
+  3 hamlet                            9257 of     67373
+  4 named in OSM (check)              5792 of     12645
+  Hint vs OSM name, 5792 named candidates: same 31%, close (Jaro-Winkler >= 0.9) 50%
+Matched OSM places, building count p20/p50, share >= 50
+  village     6426  103/275  91%
+  hamlet      2595  21/50  50%
+Village-size candidates (incl. towns): 15697
+Official: 131000 listed locality (locality_list, 2021, medium confidence); village-size / official = 0.12
+  GSS: Basics of the 2021 PHC: https://census2021.statsghana.gov.gh/gssmain/fileUpload/pressrelease/Basics%20of%20the%20census.pdf

@@ -1,0 +1,27 @@
+ETH: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town            1103       328      1162
+  village        76712      4369      3267
+  hamlet        624587      8276     10175
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town            1302       351      1185
+  village        96722      4664      3429
+  hamlet        256289      3553      4422
+Priority
+  1 village-size, not in OSM         77815
+  2 village-size, OSM unnamed         4697
+  3 hamlet                          632863
+  4 named in OSM (check)             14604
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          4607 of     77815
+  2 village-size, OSM unnamed          250 of      4697
+  3 hamlet                           13703 of    632863
+  4 named in OSM (check)              2890 of     14604
+  Hint vs OSM name, 2890 named candidates: same 53%, close (Jaro-Winkler >= 0.9) 66%
+Matched OSM places, building count p20/p50, share >= 50
+  village     4126  51/235  80%
+  hamlet      4848  21/53  53%
+Village-size candidates (incl. towns): 86941
+Official: 16475 kebele (territory, 2016, medium confidence); village-size / official = 5.28
+  World Bank ID4D Country Diagnostic: Ethiopia: https://documents1.worldbank.org/curated/en/822621524689442102/ID4D-Country-Diagnostic-Ethiopia.pdf

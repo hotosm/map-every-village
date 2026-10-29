@@ -1,0 +1,13 @@
+pcode,name,level,p1,p2,p3,p4,missing,in_osm_unnamed,in_osm_named
+MU19,Black River,1,19,2,121,44,136,6,44
+MU14,Flacq,1,25,0,165,59,190,0,59
+MU15,Grand Port,1,15,1,170,68,185,1,68
+MU18,Moka,1,5,0,101,65,106,0,65
+MU12,Pamplemousses,1,16,0,78,48,94,0,48
+MU17,Plaine Wilhems,1,3,0,73,51,76,0,51
+MU11,Port Louis,1,1,0,2,6,3,0,6
+MU13,Riviere du Rempart,1,14,0,104,50,118,0,50
+MU16,Savanne,1,13,0,115,49,128,0,49
+MU23,Saint Brandon Islands,1,0,0,0,0,0,0,0
+MU21,Rodriguez Island,1,28,0,78,28,106,0,28
+MU22,North Islands,1,1,0,6,4,7,0,4

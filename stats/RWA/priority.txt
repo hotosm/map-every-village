@@ -1,0 +1,27 @@
+RWA: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             484        83       242
+  village         8567       806       532
+  hamlet         15810       632       635
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             574        87       259
+  village         5949       774       431
+  hamlet          5052       433       310
+Priority
+  1 village-size, not in OSM          9051
+  2 village-size, OSM unnamed          889
+  3 hamlet                           16442
+  4 named in OSM (check)              1409
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          5327 of      9051
+  2 village-size, OSM unnamed          625 of       889
+  3 hamlet                            6617 of     16442
+  4 named in OSM (check)               884 of      1409
+  Hint vs OSM name, 884 named candidates: same 14%, close (Jaro-Winkler >= 0.9) 16%
+Matched OSM places, building count p20/p50, share >= 20
+  village      858  16/152  78%
+  hamlet       461  11/46  68%
+Village-size candidates (incl. towns): 10714
+Official: 14837 umudugudu (admin_village, 2006, high confidence); village-size / official = 0.72
+  NISR (2006 territorial reform): https://www.statistics.gov.rw/survey/districts-baseline-survey

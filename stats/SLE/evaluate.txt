@@ -1,0 +1,7 @@
+SLE: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      6429/7525    85%
+  village     1879/1914    98%
+Candidates, building count p10/p50/p90
+  in_osm_named        8229  10/40/154
+  in_osm_unnamed       880  7/21/63
+  missing             8582  5/13/46

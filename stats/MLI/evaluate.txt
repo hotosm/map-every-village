@@ -1,0 +1,7 @@
+MLI: OSM hamlets/villages matched by a candidate (recall)
+  hamlet     11550/16881   68%
+  village     8433/10820   78%
+Candidates, building count p10/p50/p90
+  in_osm_named       20216  7/52/432
+  in_osm_unnamed      7713  6/15/108
+  missing            47383  5/8/30

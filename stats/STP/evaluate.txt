@@ -1,0 +1,7 @@
+STP: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       281/327     86%
+  village       56/57      98%
+Candidates, building count p10/p50/p90
+  in_osm_named         239  6/35/284
+  in_osm_unnamed         2  7/7/16
+  missing              130  5/11/37

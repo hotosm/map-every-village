@@ -1,0 +1,27 @@
+TGO: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              61        17       237
+  village         4338       667      1254
+  hamlet         37808      1174      2017
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              76        17       248
+  village         4788       671      1206
+  hamlet         19000       835       787
+Priority
+  1 village-size, not in OSM          4399
+  2 village-size, OSM unnamed          684
+  3 hamlet                           38982
+  4 named in OSM (check)              3508
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           908 of      4399
+  2 village-size, OSM unnamed          168 of       684
+  3 hamlet                            3044 of     38982
+  4 named in OSM (check)               926 of      3508
+  Hint vs OSM name, 926 named candidates: same 33%, close (Jaro-Winkler >= 0.9) 44%
+Matched OSM places, building count p20/p50, share >= 50
+  village     1604  75/219  87%
+  hamlet       534  13/43  46%
+Village-size candidates (incl. towns): 6574
+Official: 3644 village (admin_village, 2020, low confidence); village-size / official = 1.80
+  gausoft/Subdivision_administrative_Togo (unofficial): https://github.com/gausoft/Subdivision_administrative_Togo

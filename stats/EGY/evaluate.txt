@@ -1,0 +1,7 @@
+EGY: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       183/208     88%
+  village     1327/1361    98%
+Candidates, building count p10/p50/p90
+  in_osm_named       15428  5/14/505
+  in_osm_unnamed       774  5/17/1226
+  missing           106261  5/11/79

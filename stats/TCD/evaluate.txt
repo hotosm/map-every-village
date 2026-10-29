@@ -1,0 +1,7 @@
+TCD: OSM hamlets/villages matched by a candidate (recall)
+  hamlet     10283/20501   50%
+  village    13431/15118   89%
+Candidates, building count p10/p50/p90
+  in_osm_named       19702  6/24/208
+  in_osm_unnamed      8762  5/13/67
+  missing            37442  5/8/35

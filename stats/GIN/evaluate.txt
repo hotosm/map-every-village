@@ -1,0 +1,7 @@
+GIN: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      9320/11282   83%
+  village     4588/4661    98%
+Candidates, building count p10/p50/p90
+  in_osm_named       13059  8/51/374
+  in_osm_unnamed      5251  7/35/164
+  missing            41834  5/14/71

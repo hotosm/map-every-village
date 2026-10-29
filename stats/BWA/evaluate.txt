@@ -1,0 +1,7 @@
+BWA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet        59/70      84%
+  village      498/506     98%
+Candidates, building count p10/p50/p90
+  in_osm_named        1385  6/30/2452
+  in_osm_unnamed       110  5/13/301
+  missing            45300  5/7/18

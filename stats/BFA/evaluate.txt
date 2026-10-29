@@ -1,0 +1,7 @@
+BFA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      6118/6804    90%
+  village     8113/8330    97%
+Candidates, building count p10/p50/p90
+  in_osm_named       24656  6/27/450
+  in_osm_unnamed     12264  6/18/126
+  missing           207219  5/11/51

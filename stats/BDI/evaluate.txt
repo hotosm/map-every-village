@@ -1,0 +1,7 @@
+BDI: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       258/259     100%
+  village     1432/1433    100%
+Candidates, building count p10/p50/p90
+  in_osm_named        7795  6/22/369
+  in_osm_unnamed       425  6/22/215
+  missing            56744  5/12/59

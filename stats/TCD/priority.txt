@@ -1,0 +1,25 @@
+TCD: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               8        10       328
+  village         7323      3182     10543
+  hamlet         30111      5570      8831
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town               9        10       331
+  village         7914      3288     10549
+  hamlet         20339      4414      5170
+Priority
+  1 village-size, not in OSM          7331
+  2 village-size, OSM unnamed         3192
+  3 hamlet                           35681
+  4 named in OSM (check)             19702
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           547 of      7331
+  2 village-size, OSM unnamed          206 of      3192
+  3 hamlet                            1518 of     35681
+  4 named in OSM (check)              7403 of     19702
+  Hint vs OSM name, 7403 named candidates: same 61%, close (Jaro-Winkler >= 0.9) 73%
+Matched OSM places, building count p20/p50, share >= 20
+  village    11925  14/45  72%
+  hamlet      8629  7/17  45%
+Village-size candidates (incl. towns): 21394

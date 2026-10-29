@@ -1,0 +1,27 @@
+GMB: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               3         1        61
+  village          170       197       826
+  hamlet          1060       143       537
+Groups (biggest neighbour within 150 m), by total buildings
+  class        missing   unnamed     named
+  town               3         1        61
+  village          177       196       824
+  hamlet           777       105       345
+Priority
+  1 village-size, not in OSM           173
+  2 village-size, OSM unnamed          198
+  3 hamlet                            1203
+  4 named in OSM (check)              1424
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM            61 of       173
+  2 village-size, OSM unnamed           86 of       198
+  3 hamlet                             298 of      1203
+  4 named in OSM (check)               743 of      1424
+  Hint vs OSM name, 743 named candidates: same 28%, close (Jaro-Winkler >= 0.9) 49%
+Matched OSM places, building count p20/p50, share >= 50
+  village     1043  70/159  85%
+  hamlet       223  28/63  60%
+Village-size candidates (incl. towns): 1258
+Official: 1891 settlement (settlement, 2013, high confidence); village-size / official = 0.67
+  GBoS Census 2013 Directory of Settlements: https://www.gbosdata.org/downloads-file/7-census-2013-directory-of-settlement

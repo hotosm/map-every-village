@@ -1,0 +1,7 @@
+SSD: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      2715/4662    58%
+  village     1374/1712    80%
+Candidates, building count p10/p50/p90
+  in_osm_named        4844  5/12/162
+  in_osm_unnamed      4517  5/11/68
+  missing            89645  5/8/26

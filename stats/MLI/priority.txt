@@ -1,0 +1,27 @@
+MLI: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              14         6       562
+  village         2671      1633      9701
+  hamlet         44698      6074      9953
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              14         7       585
+  village         3123      1700      9550
+  hamlet         32751      5011      5107
+Priority
+  1 village-size, not in OSM          2685
+  2 village-size, OSM unnamed         1639
+  3 hamlet                           50772
+  4 named in OSM (check)             20216
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           663 of      2685
+  2 village-size, OSM unnamed          437 of      1639
+  3 hamlet                            2292 of     50772
+  4 named in OSM (check)             11697 of     20216
+  Hint vs OSM name, 11697 named candidates: same 53%, close (Jaro-Winkler >= 0.9) 76%
+Matched OSM places, building count p20/p50, share >= 50
+  village     8264  80/190  89%
+  hamlet     10554  10/26  30%
+Village-size candidates (incl. towns): 14587
+Official: 11308 village / quartier (settlement, 2009, high confidence); village-size / official = 1.29
+  INSTAT RGPH 2009 cartography manual: https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/magca09_rgph.pdf

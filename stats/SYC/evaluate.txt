@@ -1,0 +1,7 @@
+SYC: OSM hamlets/villages matched by a candidate (recall)
+  hamlet         3/3       100%
+  village       39/39      100%
+Candidates, building count p10/p50/p90
+  in_osm_named          54  7/45/693
+  in_osm_unnamed        11  7/66/2328
+  missing              186  5/15/86

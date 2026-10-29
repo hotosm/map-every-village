@@ -1,0 +1,25 @@
+ERI: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              60        11       105
+  village         1917       181       414
+  hamlet         15708       286       810
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              70        13       114
+  village         1994       183       395
+  hamlet          9627        92       389
+Priority
+  1 village-size, not in OSM          1977
+  2 village-size, OSM unnamed          192
+  3 hamlet                           15994
+  4 named in OSM (check)              1329
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           417 of      1977
+  2 village-size, OSM unnamed           58 of       192
+  3 hamlet                             755 of     15994
+  4 named in OSM (check)               389 of      1329
+  Hint vs OSM name, 389 named candidates: same 34%, close (Jaro-Winkler >= 0.9) 49%
+Matched OSM places, building count p20/p50, share >= 50
+  village      474  79/304  86%
+  hamlet        83  14/50  51%  (small sample)
+Village-size candidates (incl. towns): 2688

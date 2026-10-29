@@ -1,0 +1,119 @@
+# Defaults for every country. Override with an [ISO3] table after tuning.
+# Why these values: docs/how-it-works.md.
+
+[default]
+cell_deg = 0.00025          # grid cell size, ~28 m
+min_confidence = 0.65       # Google's floor: keep all predictions
+eps_m = 100                 # max gap between cells of one settlement (m)
+min_buildings = 5           # smallest settlement kept
+tile_deg = 0.5              # clustering tile size
+project_admin_level = 3     # admin level of Field-TM projects (or deepest available)
+village_buildings = 50      # GRID3's hamlet/small settlement boundary (docs/prioritising.md)
+town_buildings = 1000
+group_m = 200               # group_id: link to the biggest candidate this close; 0 = off
+
+# Counts as in OSM if a place of this type is within this distance (m) of the outline.
+[default.place_buffer_m]
+city = 3000
+town = 1500
+village = 500
+hamlet = 250
+isolated_dwelling = 100
+residential = 0             # named landuse=residential
+
+# village_buildings: fewer than 80% of matched OSM villages reach the default 50,
+# so their 20th percentile (scripts/calibrate.py, docs/prioritising.md).
+# group_m: the default 200 m groups over 10% of OSM villages with another one, so the
+# largest of 150/100 m that doesn't, else 0 (off).
+
+[BEN]
+village_buildings = 30    # keeps 74% -> 80% of 3263 OSM villages
+group_m = 100             # 200 m groups 17% of OSM villages
+
+[CAF]
+village_buildings = 35    # keeps 72% -> 81% of 4051 OSM villages
+
+[CMR]
+village_buildings = 20    # keeps 65% -> 84% of 8776 OSM villages
+
+[COD]
+village_buildings = 25    # keeps 70% -> 83% of 17319 OSM villages
+
+[COG]
+village_buildings = 25    # keeps 64% -> 85% of 537 OSM villages
+
+[COM]
+group_m = 150             # 200 m groups 15% of OSM villages
+
+[CPV]
+group_m = 0               # 200 m groups 22% of OSM villages
+
+[DZA]
+group_m = 150             # 200 m groups 14% of OSM villages
+
+[GAB]
+village_buildings = 20    # keeps 51% -> 81% of 792 OSM villages
+
+[GMB]
+group_m = 150             # 200 m groups 11% of OSM villages
+
+[GNB]
+village_buildings = 25    # keeps 62% -> 82% of 818 OSM villages
+
+[GNQ]
+village_buildings = 25    # keeps 57% -> 81% of 792 OSM villages
+
+[KEN]
+village_buildings = 20    # keeps 68% -> 82% of 5432 OSM villages
+group_m = 0               # 200 m groups 27% of OSM villages
+
+[LBR]
+group_m = 150             # 200 m groups 12% of OSM villages
+
+[LBY]
+village_buildings = 20    # keeps 69% -> 80% of 416 OSM villages
+
+[LSO]
+group_m = 100             # 200 m groups 17% of OSM villages
+
+[MAR]
+village_buildings = 20    # keeps 62% -> 81% of 2537 OSM villages
+group_m = 150             # 200 m groups 14% of OSM villages
+
+[MDG]
+village_buildings = 45    # keeps 79% -> 81% of 13065 OSM villages
+group_m = 0               # 200 m groups 27% of OSM villages
+
+[MWI]
+group_m = 100             # 200 m groups 16% of OSM villages
+
+[NAM]
+village_buildings = 20    # keeps 68% -> 85% of 289 OSM villages
+
+[NER]
+village_buildings = 45    # keeps 80% -> 82% of 11842 OSM villages
+
+[NGA]
+village_buildings = 45    # keeps 79% -> 81% of 17814 OSM villages
+
+[RWA]
+village_buildings = 20    # keeps 65% -> 78% of 858 OSM villages
+
+[SLE]
+village_buildings = 20    # keeps 52% -> 84% of 1886 OSM villages
+
+[SOM]
+village_buildings = 20    # keeps 63% -> 82% of 4065 OSM villages
+
+[SSD]
+village_buildings = 20    # keeps 52% -> 75% of 1229 OSM villages
+
+[STP]
+group_m = 0               # 200 m groups 17% of OSM villages
+
+[TCD]
+village_buildings = 20    # keeps 47% -> 72% of 11925 OSM villages
+
+[UGA]
+village_buildings = 20    # keeps 59% -> 78% of 38613 OSM villages
+group_m = 0               # 200 m groups 34% of OSM villages

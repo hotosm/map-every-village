@@ -1,0 +1,7 @@
+UGA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet     10775/10843   99%
+  village    59443/62489   95%
+Candidates, building count p10/p50/p90
+  in_osm_named      122916  6/15/175
+  in_osm_unnamed      6527  6/16/104
+  missing           186483  5/9/40

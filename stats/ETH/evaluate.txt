@@ -1,0 +1,7 @@
+ETH: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      4954/5359    92%
+  village     3676/3820    96%
+Candidates, building count p10/p50/p90
+  in_osm_named       14604  6/18/615
+  in_osm_unnamed     12973  6/27/304
+  missing           702402  5/11/54

@@ -1,0 +1,27 @@
+UGA: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             200        15      2115
+  village        42351      2901     51066
+  hamlet        143932      3611     69735
+Groups (biggest neighbour within 0 m), by total buildings
+  class        missing   unnamed     named
+  town             200        15      2115
+  village        42351      2901     51066
+  hamlet        143932      3611     69735
+Priority
+  1 village-size, not in OSM         42551
+  2 village-size, OSM unnamed         2916
+  3 hamlet                          147543
+  4 named in OSM (check)            122916
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          2188 of     42551
+  2 village-size, OSM unnamed          250 of      2916
+  3 hamlet                            4188 of    147543
+  4 named in OSM (check)             16902 of    122916
+  Hint vs OSM name, 16902 named candidates: same 49%, close (Jaro-Winkler >= 0.9) 59%
+Matched OSM places, building count p20/p50, share >= 20
+  village    38613  17/73  78%
+  hamlet      4407  11/28  62%
+Village-size candidates (incl. towns): 98648
+Official: 71214 village (LC1) (admin_village, 2025, high confidence); village-size / official = 1.39
+  Electoral Commission: voter statistics: https://www.ec.or.ug/voter-statistics

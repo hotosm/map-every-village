@@ -1,0 +1,19 @@
+{
+ "cell_deg": 0.00025,
+ "min_confidence": 0.65,
+ "eps_m": 100,
+ "min_buildings": 5,
+ "tile_deg": 0.5,
+ "project_admin_level": 3,
+ "village_buildings": 50,
+ "town_buildings": 1000,
+ "group_m": 0,
+ "place_buffer_m": {
+  "city": 3000,
+  "town": 1500,
+  "village": 500,
+  "hamlet": 250,
+  "isolated_dwelling": 100,
+  "residential": 0
+ }
+}

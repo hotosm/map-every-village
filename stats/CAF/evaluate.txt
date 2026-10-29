@@ -1,0 +1,7 @@
+CAF: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      4725/6664    71%
+  village     4451/4620    96%
+Candidates, building count p10/p50/p90
+  in_osm_named        4207  8/81/509
+  in_osm_unnamed      6432  5/12/77
+  missing            10244  5/7/24

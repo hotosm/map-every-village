@@ -1,0 +1,63 @@
+# For `mev osm --osm-source oex`: HOT's export layers, plus alt names and place=locality.
+key: mev
+subnational: false
+
+boundary:
+  geoboundaries_level: ADM0
+
+output:
+  formats: [gpkg, geoparquet]
+  report:
+    enabled: false
+
+hdx:
+  push: false
+
+source:
+  overture:
+    enabled: false
+  osm:
+    enabled: true
+    engine: geofabrik
+    snapshot: latest
+    geofabrik_clip_to_boundary: true
+
+categories:
+  - name: populated_places
+    formats: [gpkg, geoparquet]
+    skip_pcodes: true
+    osm:
+      enabled: true
+      filter:
+        place: [city, town, village, hamlet, isolated_dwelling, locality]
+        landuse: [residential]
+      select:
+        - feature_id AS id
+        - tags['name'] AS name
+        - tags['name:en'] AS name_en
+        - tags['alt_name'] AS alt_name
+        - tags['old_name'] AS old_name
+        - tags['loc_name'] AS loc_name
+        - tags['official_name'] AS official_name
+        - tags['place'] AS place
+        - tags['landuse'] AS landuse
+      where: []
+    overture:
+      enabled: false
+
+  - name: health_facilities
+    formats: [gpkg, geoparquet]
+    skip_pcodes: true
+    osm:
+      enabled: true
+      filter:
+        healthcare: true
+        amenity: [doctors, clinic, hospital]
+      select:
+        - feature_id AS id
+        - tags['name'] AS name
+        - tags['amenity'] AS amenity
+        - tags['healthcare'] AS healthcare
+      where: []
+    overture:
+      enabled: false

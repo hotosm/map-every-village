@@ -1,0 +1,7 @@
+ZAF: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       479/543     88%
+  village     1295/1315    98%
+Candidates, building count p10/p50/p90
+  in_osm_named        9564  6/24/2173
+  in_osm_unnamed       229  6/18/1090
+  missing           300125  5/12/55

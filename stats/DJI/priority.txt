@@ -1,0 +1,25 @@
+DJI: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               1         1        12
+  village           71         7        57
+  hamlet           817        15       152
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town               1         1        13
+  village           76         6        49
+  hamlet           574         8        94
+Priority
+  1 village-size, not in OSM            72
+  2 village-size, OSM unnamed            8
+  3 hamlet                             832
+  4 named in OSM (check)               221
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM             1 of        72
+  2 village-size, OSM unnamed            1 of         8
+  3 hamlet                               8 of       832
+  4 named in OSM (check)                57 of       221
+  Hint vs OSM name, 57 named candidates: same 65%, close (Jaro-Winkler >= 0.9) 75%
+Matched OSM places, building count p20/p50, share >= 50
+  village       74  10/49  50%  (small sample)
+  hamlet        21  10/32  43%  (small sample)
+Village-size candidates (incl. towns): 149

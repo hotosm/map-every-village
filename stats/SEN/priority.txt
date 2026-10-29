@@ -1,0 +1,27 @@
+SEN: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town               5        19       538
+  village         3594      2895      7261
+  hamlet         30370      3995      5037
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town               8        19       550
+  village         4173      3009      7123
+  hamlet         20030      2814      2217
+Priority
+  1 village-size, not in OSM          3599
+  2 village-size, OSM unnamed         2914
+  3 hamlet                           34365
+  4 named in OSM (check)             12836
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           995 of      3599
+  2 village-size, OSM unnamed         1070 of      2914
+  3 hamlet                            3993 of     34365
+  4 named in OSM (check)              6991 of     12836
+  Hint vs OSM name, 6991 named candidates: same 52%, close (Jaro-Winkler >= 0.9) 71%
+Matched OSM places, building count p20/p50, share >= 50
+  village     6966  91/197  91%
+  hamlet      6399  23/53  53%
+Village-size candidates (incl. towns): 14312
+Official: 14958 village officiel (settlement, 2013, medium confidence); village-size / official = 0.96
+  Wikipedia (fr): Villages du Sénégal (ANSD répertoire): https://fr.wikipedia.org/wiki/Villages_du_S%C3%A9n%C3%A9gal

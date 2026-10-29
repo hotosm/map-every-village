@@ -1,0 +1,27 @@
+SWZ: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              68         1        39
+  village         3580         0       474
+  hamlet         26967         0       870
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              90         1        46
+  village         4333         0       477
+  hamlet          6507         0       198
+Priority
+  1 village-size, not in OSM          3648
+  2 village-size, OSM unnamed            1
+  3 hamlet                           26967
+  4 named in OSM (check)              1383
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           509 of      3648
+  2 village-size, OSM unnamed            0 of         1
+  3 hamlet                            1771 of     26967
+  4 named in OSM (check)               285 of      1383
+  Hint vs OSM name, 285 named candidates: same 40%, close (Jaro-Winkler >= 0.9) 47%
+Matched OSM places, building count p20/p50, share >= 50
+  village       66  156/474  97%  (small sample)
+  hamlet       334  41/103  76%
+Village-size candidates (incl. towns): 4162
+Official: 385 umphakatsi (traditional, 2020, medium confidence); village-size / official = 10.81
+  Wikipedia: Umphakatsi: https://en.wikipedia.org/wiki/Umphakatsi

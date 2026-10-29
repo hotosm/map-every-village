@@ -1,0 +1,7 @@
+DJI: OSM hamlets/villages matched by a candidate (recall)
+  hamlet        21/33      64%
+  village       68/83      82%
+Candidates, building count p10/p50/p90
+  in_osm_named         221  6/20/307
+  in_osm_unnamed        23  5/17/356
+  missing              889  5/10/43

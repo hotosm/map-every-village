@@ -1,0 +1,7 @@
+LSO: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      2333/2366    99%
+  village     2537/2544    100%
+Candidates, building count p10/p50/p90
+  in_osm_named        7301  8/47/272
+  in_osm_unnamed        96  8/79/422
+  missing             6410  5/15/111

@@ -1,0 +1,7 @@
+KEN: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       742/891     83%
+  village     8009/8391    95%
+Candidates, building count p10/p50/p90
+  in_osm_named       26588  6/16/245
+  in_osm_unnamed       950  5/14/235
+  missing           322589  5/10/46

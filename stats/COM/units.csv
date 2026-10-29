@@ -1,0 +1,56 @@
+pcode,name,level,p1,p2,p3,p4,missing,in_osm_unnamed,in_osm_named
+KM111,Bambao Mtsanga,3,0,0,1,3,1,0,3
+KM112,Domoni,3,0,1,2,5,2,1,5
+KM113,Jimlimé,3,0,0,0,6,0,0,6
+KM114,Koni,3,0,0,4,5,4,0,5
+KM115,Ngandzalé,3,0,0,1,3,1,0,3
+KM121,Adda,3,0,0,4,8,4,0,8
+KM122,Chaweni,3,0,0,1,3,1,0,3
+KM123,Mramani,3,0,0,1,5,1,0,5
+KM124,Mrémani,3,0,0,0,3,0,0,3
+KM125,Ongojou,3,0,0,1,3,1,0,3
+KM131,Bandrani Ya Chironkamba,3,0,0,1,4,1,0,4
+KM132,Bandrani Ya Mtsangani,3,0,0,0,4,0,0,4
+KM133,Mirontsi,3,0,0,0,1,0,0,1
+KM134,Mutsamudu,3,0,0,0,7,0,0,7
+KM141,Bambao Mtrouni,3,0,0,1,5,1,0,5
+KM142,Bazimini,3,0,0,0,6,0,0,6
+KM143,Ouani,3,0,0,1,3,1,0,3
+KM151,Moya,3,0,0,1,6,1,0,6
+KM152,Sima,3,0,0,7,9,7,0,9
+KM153,Vouani,3,0,0,2,16,2,0,16
+KM211,Mboinkou,3,3,0,2,2,5,0,2
+KM212,Nyuma Mro,3,3,0,8,4,11,0,4
+KM213,Nyuma Msiru,3,2,0,1,4,3,0,4
+KM221,Djoumoipangua,3,0,0,0,4,0,0,4
+KM222,Tsinimoipangua,3,0,0,0,10,0,0,10
+KM231,Bangaani,3,0,0,0,0,0,0,0
+KM232,Djoumoichongo,3,0,0,1,3,1,0,3
+KM233,Hamanvou,3,2,0,28,10,30,0,10
+KM234,Isahari,3,0,0,1,2,1,0,2
+KM235,Mbadani,3,0,0,12,6,12,0,6
+KM241,Domba,3,0,0,2,5,1,1,5
+KM242,Itsahidi,3,2,0,6,14,8,0,14
+KM243,Pimba,3,0,5,5,3,3,7,3
+KM251,Ngouengoe,3,2,3,1,3,3,3,3
+KM252,Nioumagama,3,2,0,4,5,6,0,5
+KM261,Cembenoi Lac Salé,3,0,0,6,3,6,0,3
+KM262,Cembenoi Sada Djoulamlima,3,3,0,4,0,7,0,0
+KM263,Mitsamiouli,3,0,0,5,4,5,0,4
+KM264,Nyuma Komo,3,4,0,3,1,7,0,1
+KM265,Nyumamro Kiblani,3,4,0,5,4,9,0,4
+KM266,Nyumamro Souheili,3,3,0,7,6,10,0,6
+KM271,Bambao Ya Hari,3,0,0,0,6,0,0,6
+KM272,Bambao Ya Mboini,3,0,0,0,6,0,0,6
+KM273,Bambao Yadjou,3,0,0,2,2,2,0,2
+KM274,Moroni,3,0,0,0,1,0,0,1
+KM281,Dimani,3,3,0,3,6,6,0,6
+KM282,Oichili Yadjou,3,3,0,5,7,8,0,7
+KM283,Oichili Yamboini,3,0,0,4,6,4,0,6
+KM291,Cratère du Karthala,3,0,0,0,0,0,0,0
+KM311,Djando,3,1,0,5,5,6,0,5
+KM321,Fomboni,3,0,0,0,3,0,0,3
+KM322,Moili Mdjini,3,0,0,1,5,1,0,5
+KM323,Moimbassa,3,0,1,2,7,1,2,7
+KM331,Mlédjélé,3,1,0,0,4,1,0,4
+KM332,Moimbao,3,0,2,0,4,0,2,4

@@ -1,0 +1,27 @@
+NAM: classes (village >= 20 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              28         0       102
+  village        26880       110      1365
+  hamlet        104483       394      2188
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              37         0       110
+  village        26612       143      1212
+  hamlet         40527       233       704
+Priority
+  1 village-size, not in OSM         26908
+  2 village-size, OSM unnamed          110
+  3 hamlet                          104877
+  4 named in OSM (check)              3655
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          2528 of     26908
+  2 village-size, OSM unnamed           16 of       110
+  3 hamlet                            5873 of    104877
+  4 named in OSM (check)              1193 of      3655
+  Hint vs OSM name, 1193 named candidates: same 60%, close (Jaro-Winkler >= 0.9) 72%
+Matched OSM places, building count p20/p50, share >= 20
+  village      289  24/144  85%
+  hamlet       687  9/17  46%
+Village-size candidates (incl. towns): 28485
+Official: 22000 village headman (traditional, 2010, low confidence); village-size / official = 1.29
+  LRDC report on Owambo traditional authorities: https://www.lac.org.na/laws/LRDC/22-LRDC-Traditional_Authorities_in_the_Ovawambo_Communities.pdf

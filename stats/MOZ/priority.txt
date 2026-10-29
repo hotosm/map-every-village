@@ -1,0 +1,25 @@
+MOZ: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             782        24       584
+  village        24450       234      1532
+  hamlet        364641       787      4427
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             837        26       598
+  village        34269       254      1618
+  hamlet        187401       506      1847
+Priority
+  1 village-size, not in OSM         25232
+  2 village-size, OSM unnamed          258
+  3 hamlet                          365428
+  4 named in OSM (check)              6543
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          3830 of     25232
+  2 village-size, OSM unnamed           67 of       258
+  3 hamlet                           22481 of    365428
+  4 named in OSM (check)              1715 of      6543
+  Hint vs OSM name, 1715 named candidates: same 36%, close (Jaro-Winkler >= 0.9) 41%
+Matched OSM places, building count p20/p50, share >= 50
+  village     1303  73/306  85%
+  hamlet       711  9/29  36%
+Village-size candidates (incl. towns): 27606

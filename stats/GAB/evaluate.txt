@@ -1,0 +1,7 @@
+GAB: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       236/296     80%
+  village      771/872     88%
+Candidates, building count p10/p50/p90
+  in_osm_named        1442  6/23/140
+  in_osm_unnamed       373  6/22/90
+  missing             3531  5/12/65

@@ -1,0 +1,27 @@
+CIV: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              18        39      1408
+  village         2258      4950      6738
+  hamlet         60144      5029      3599
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town              18        39      1424
+  village         2641      5104      6641
+  hamlet         46436      4168      1892
+Priority
+  1 village-size, not in OSM          2276
+  2 village-size, OSM unnamed         4989
+  3 hamlet                           65173
+  4 named in OSM (check)             11745
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM           250 of      2276
+  2 village-size, OSM unnamed          164 of      4989
+  3 hamlet                            1816 of     65173
+  4 named in OSM (check)              7692 of     11745
+  Hint vs OSM name, 7692 named candidates: same 68%, close (Jaro-Winkler >= 0.9) 80%
+Matched OSM places, building count p20/p50, share >= 50
+  village     7410  153/345  95%
+  hamlet      5470  25/58  57%
+Village-size candidates (incl. towns): 15411
+Official: 8549 village (admin_village, 1998, low confidence); village-size / official = 1.80
+  Decentralisation page (undated; refers to a 1996 plan): https://picabidjan.tripod.com/matrice/DECENTRA-SEC.htm

@@ -1,0 +1,7 @@
+CPV: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       243/244     100%
+  village      207/207     100%
+Candidates, building count p10/p50/p90
+  in_osm_named         975  6/34/377
+  in_osm_unnamed         2  6/6/75
+  missing             2157  5/11/51

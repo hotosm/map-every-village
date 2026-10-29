@@ -1,0 +1,27 @@
+TZA: classes (village >= 50 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town             674        35      2605
+  village        34907       387      8103
+  hamlet        548569      1197     17303
+Groups (biggest neighbour within 200 m), by total buildings
+  class        missing   unnamed     named
+  town             782        39      2747
+  village        50180       401      7853
+  hamlet        256029       734      6231
+Priority
+  1 village-size, not in OSM         35581
+  2 village-size, OSM unnamed          422
+  3 hamlet                          549766
+  4 named in OSM (check)             28011
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          1335 of     35581
+  2 village-size, OSM unnamed           21 of       422
+  3 hamlet                            5687 of    549766
+  4 named in OSM (check)              2130 of     28011
+  Hint vs OSM name, 2130 named candidates: same 44%, close (Jaro-Winkler >= 0.9) 52%
+Matched OSM places, building count p20/p50, share >= 50
+  village     8827  91/428  86%
+  hamlet      1164  13/54  52%
+Village-size candidates (incl. towns): 46711
+Official: 12333 kijiji (village) (admin_village, 2024, high confidence); village-size / official = 3.79
+  Government notice for the 2024 local elections (The Chanzo): https://thechanzo.com/2024/09/17/government-announces-12333-villages-4269-streets-for-2024-local-government-election-revises-decision-to-delist-ngorongoro-villages/

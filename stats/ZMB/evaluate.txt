@@ -1,0 +1,7 @@
+ZMB: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       269/318     85%
+  village     1236/1250    99%
+Candidates, building count p10/p50/p90
+  in_osm_named        3321  6/33/808
+  in_osm_unnamed       740  6/19/160
+  missing           294979  5/9/32

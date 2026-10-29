@@ -1,0 +1,27 @@
+MDG: classes (village >= 45 buildings, town >= 1000)
+  class        missing   unnamed     named
+  town              32        46       626
+  village        15377     13649     10299
+  hamlet        192657     41156     22457
+Groups (biggest neighbour within 0 m), by total buildings
+  class        missing   unnamed     named
+  town              32        46       626
+  village        15377     13649     10299
+  hamlet        192657     41156     22457
+Priority
+  1 village-size, not in OSM         15409
+  2 village-size, OSM unnamed        13695
+  3 hamlet                          233813
+  4 named in OSM (check)             33382
+Name hints within 500 m (`mev hints`)
+  1 village-size, not in OSM          2047 of     15409
+  2 village-size, OSM unnamed         2185 of     13695
+  3 hamlet                           17778 of    233813
+  4 named in OSM (check)              4799 of     33382
+  Hint vs OSM name, 4799 named candidates: same 32%, close (Jaro-Winkler >= 0.9) 39%
+Matched OSM places, building count p20/p50, share >= 45
+  village    13065  47/133  81%
+  hamlet     44197  10/23  28%
+Village-size candidates (incl. towns): 40029
+Official: 19340 fokontany (admin_village, 2023, medium confidence); village-size / official = 2.07
+  CENI 2023 electoral list via moov.mg: https://moov.mg/article/78001-subdivision-administrative-lexistence-de-six-mille-nouveaux-fokontany-demontree

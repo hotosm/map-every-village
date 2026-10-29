@@ -1,0 +1,7 @@
+TGO: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       624/676     92%
+  village     1771/1797    99%
+Candidates, building count p10/p50/p90
+  in_osm_named        3508  6/30/683
+  in_osm_unnamed      1858  6/19/258
+  missing            42207  5/9/52

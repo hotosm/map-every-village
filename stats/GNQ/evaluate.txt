@@ -1,0 +1,7 @@
+GNQ: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       169/213     79%
+  village      806/852     95%
+Candidates, building count p10/p50/p90
+  in_osm_named         365  6/33/271
+  in_osm_unnamed      1209  7/31/133
+  missing             1079  6/14/76

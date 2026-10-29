@@ -1,0 +1,7 @@
+DZA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      7576/8363    91%
+  village     5930/5951    100%
+Candidates, building count p10/p50/p90
+  in_osm_named       21666  6/25/813
+  in_osm_unnamed      5382  6/18/106
+  missing           178559  5/10/42

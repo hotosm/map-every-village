@@ -1,0 +1,7 @@
+TUN: OSM hamlets/villages matched by a candidate (recall)
+  hamlet       459/466     98%
+  village      815/816     100%
+Candidates, building count p10/p50/p90
+  in_osm_named        5548  6/19/639
+  in_osm_unnamed      1241  6/16/151
+  missing           106582  5/11/46

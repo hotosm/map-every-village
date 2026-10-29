@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose build mev
+      - run: >-
+          MEV_UID=$(id -u) MEV_GID=$(id -g)
+          docker compose run --rm -T mev
+          sh -c "ruff check . && ruff format --check . && pytest"

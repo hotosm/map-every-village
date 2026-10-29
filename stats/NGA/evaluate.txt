@@ -1,0 +1,7 @@
+NGA: OSM hamlets/villages matched by a candidate (recall)
+  hamlet      7150/8254    87%
+  village    20802/23382   89%
+Candidates, building count p10/p50/p90
+  in_osm_named       30195  7/50/1064
+  in_osm_unnamed     12275  7/32/261
+  missing           633782  5/13/74
